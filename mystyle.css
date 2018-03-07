@@ -39,12 +39,12 @@ div.outer
 {    background-color:#4F4F4F;
 	 height:650px;
 	 width:600px;
-	 padding:10px;
+	 padding:5px;
 	 position:absolute;
 	 text-align:center;
 	 font-family:sans-serif;
 	/* margin:auto;*/
-	 display:inline-block;
+	/* display:inline-block;*/
 	 top:0;
 	 bottom:0;
 	 left:0;
