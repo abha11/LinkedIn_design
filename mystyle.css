@@ -10,10 +10,6 @@ body
    text-align:center;
    font-family:sans-serif;
    font-size:40px;
-   top:0;
-   bottom:0;
-   left:0;
-   right:0;
 }
 span
 {
@@ -44,7 +40,7 @@ span
 div.outer
 {    background-color:#4F4F4F;
 	 height:590px;
-	 width:600px;
+	 width:500px;
 	 padding:1px;
 	 position:fixed;
 	 text-align:center;
@@ -59,7 +55,7 @@ div.outer
 input.ibox
 {
     height:35px;
-	width:500px;
+	width:400px;
 	color:#5F5F5F;
 	border:1px solid #5F5F5F;
 	border-radius:4px;
@@ -72,7 +68,7 @@ input.ibox
 button
 {
 	background-color:#4875B4;
-	width:500px;
+	width:400px;
 	font-size:20px;
 	font-family:sans-serif;
 	height:40px;
