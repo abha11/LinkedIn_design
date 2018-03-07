@@ -52,7 +52,7 @@ div.outer
 }
 input.ibox
 {  height:40px;
-	width:380px;
+	width:90%;
 	color:#989898;
 	border:1px solid #989898;
 	font-family:sans-serif;
@@ -65,7 +65,7 @@ input.ibox
 }
 button
 {background-color:#4875B4;
-	width:380px;
+	width:90%;
 	font-size:20px;
         font-family:sans-serif;
 	height:40px;
