@@ -62,6 +62,7 @@ input.ibox
 	width:380px;
 	color:#989898;
 	border:1px solid #989898;
+	font-family:sans-serif;
 	border-radius:4px;
 	padding:4px;
 	padding-left:10px;
@@ -74,6 +75,7 @@ button
 	background-color:#4875B4;
 	width:380px;
 	font-size:20px;
+        font-family:sans-serif;
 	height:40px;
 	color:#FFFFFF;
 	border:#4875B4;
