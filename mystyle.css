@@ -10,8 +10,6 @@ body
    text-align:center;
    font-family:sans-serif;
    font-size:40px;
-   top-margin:auto;
-   bottom-margin:auto;
 }
 span
 {
@@ -41,7 +39,7 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:600px;
+	 height:700px;
 	 width:60%;
 	 padding:1px;
 	/* position:fixed;*/
