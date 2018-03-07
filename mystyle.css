@@ -6,7 +6,7 @@ body
 }
 .top
 {
-   color:white;
+   color:#FFFFFF;
    text-align:center;
    font-family:sans-serif;
    font-size:35px;
@@ -21,28 +21,28 @@ span
 }
 .top1
 {
-   color:white;
+   color:#FFFFFF;
    font-size:30px;
    font-family:sans-serif;
 }
 .top2
 {
-   color:white;
-   font-size:20px;
+   color:#FFFFFF;
+   font-size:15px;
    font-family:sans-serif;
 }
 .top3
 {
-   color:white;
+   color:#FFFFFF;
    font-size:20px;
    font-family:sans-serif; 
 }
 div.outer
 {    background-color:#4F4F4F;
 	 height:600px;
-	 width:800px;
+	 width:700px;
 	 padding:1px;
-	/* position:fixed;*/
+	 position:fixed;
 	 text-align:center;
 	 font-family:sans-serif;
 	 margin:auto;
@@ -51,11 +51,6 @@ div.outer
 	 bottom:0;
 	 left:0;
 	 right:0;
-}
-div.inner
-{    background-color:white;
-     width:1220px;
-     padding:10px;
 }
 input.ibox
 {
