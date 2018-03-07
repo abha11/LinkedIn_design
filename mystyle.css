@@ -36,10 +36,11 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:600px;
+	/* height:600px;*/
 	 width:600px;
 	 padding:1px;
 	 position:fixed;
+	 height:100vh;
 	 text-align:center;
 	 font-family:sans-serif;
 	 margin:auto;
