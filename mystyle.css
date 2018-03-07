@@ -2,7 +2,6 @@ body
 {
    background-color:#2B2B3C;
    text-align:center;
-   margin:auto;
 }
 .top
 {
@@ -38,7 +37,7 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:700px;
+	 height:600px;
 	 width:600px;
 	 padding:1px;
 	 position:fixed;
