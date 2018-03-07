@@ -39,7 +39,7 @@ div.outer
 {    background-color:#4F4F4F;
 	 height:650px;
 	 width:600px;
-	 padding:1px;
+	 padding:10px;
 	 position:absolute;
 	 text-align:center;
 	 font-family:sans-serif;
@@ -52,8 +52,8 @@ div.outer
 }
 input.ibox
 {
-    height:35px;
-	width:450px;
+   /* height:35px;
+	width:450px;*/
 	color:#5F5F5F;
 	border:1px solid #5F5F5F;
 	border-radius:4px;
