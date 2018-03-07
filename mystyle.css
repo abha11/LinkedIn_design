@@ -27,19 +27,19 @@ span
 {
    color:#FFFFFF;
    font-size:30px;
-   font-family:sans-serif;
+   /*font-family:sans-serif;*/
 }
 .top2
 {
    color:#FFFFFF;
    font-size:12px;
-   font-family:sans-serif;
+ /*  font-family:sans-serif;*/
 }
 .top3
 {
    color:#FFFFFF;
    font-size:20px;
-   font-family:sans-serif; 
+  /* font-family:sans-serif; */
 }
 div.outer
 {    background-color:#4F4F4F;
@@ -74,7 +74,7 @@ button
 	background-color:#4875B4;
 	width:350px;
 	font-size:20px;
-	font-family:sans-serif;
+	/*font-family:sans-serif;*/
 	height:40px;
 	color:#FFFFFF;
 	border:#4875B4;
