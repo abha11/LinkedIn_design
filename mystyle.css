@@ -43,8 +43,8 @@ div.outer
 	 position:absolute;
 	 text-align:center;
 	 font-family:sans-serif;
-	/* margin:auto;
-	display:inline-block;*/
+	 margin:auto;
+	display:inline-block;
 	 top:0;
 	 bottom:0;
 	 left:0;
