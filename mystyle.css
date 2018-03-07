@@ -1,0 +1,83 @@
+body
+{
+   background-color:#2B2B3C;
+   text-align:center;
+   margin:auto;
+}
+.top
+{
+   color:white;
+   text-align:center;
+   font-family:sans-serif;
+   font-size:35px;
+   margin:10px;
+}
+span
+{
+     border-radius:3px;
+	 background-color:#4875B4;
+	 padding:4px;
+	 font-family:sans-serif;
+}
+.top1
+{
+   color:white;
+   font-size:30px;
+   font-family:sans-serif;
+}
+.top2
+{
+   color:white;
+   font-size:20px;
+   font-family:sans-serif;
+}
+.top3
+{
+   color:white;
+   font-size:20px;
+   font-family:sans-serif; 
+}
+div.outer
+{    background-color:#4F4F4F;
+	 height:600px;
+	 width:1380px;
+	 padding:1px;
+	 position:fixed;
+	 text-align:center;
+	 font-family:sans-serif;
+	 margin:auto;
+	 display:inline-block;
+	 top:0;
+	 bottom:0;
+	 left:0;
+	 right:0;
+}
+div.inner
+{    background-color:white;
+     width:1220px;
+     padding:10px;
+}
+input.ibox
+{
+    height:40px;
+	width:1200px;
+	color:grey;
+	border:1px solid grey;
+	border-radius:4px;
+	padding:4px;
+	padding-left:10px;
+	font-size:20px;
+	top-margin:0px;
+	bottom-margin:0px;
+}
+button
+{
+	background-color:#4875B4;
+	width:1200px;
+	font-size:20px;
+	font-family:sans-serif;
+	height:40px;
+	color:white;
+	border:#4875B4;
+	border-radius:4px;
+}
