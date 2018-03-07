@@ -41,21 +41,21 @@ div.outer
 	 height:700px;
 	 width:600px;
 	 padding:1px;
-	/* position:fixed;*/
+	 position:fixed;
 	 text-align:center;
 	 font-family:sans-serif;
 	 margin-left:auto;
 	margin-right:auto;
-	/* display:inline-block;
+	display:inline-block;
 	 top:0;
 	 bottom:0;
 	 left:0;
-	 right:0;*/
+	 right:0;
 }
 input.ibox
 {
     height:35px;
-	width:450px;
+	width:400px;
 	color:#5F5F5F;
 	border:1px solid #5F5F5F;
 	border-radius:4px;
