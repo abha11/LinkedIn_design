@@ -9,8 +9,7 @@ body
    color:#FFFFFF;
    text-align:center;
    font-family:sans-serif;
-   font-size:35px;
-   margin:10px;
+   font-size:40px;
 }
 span
 {
@@ -28,7 +27,7 @@ span
 .top2
 {
    color:#FFFFFF;
-   font-size:10px;
+   font-size:18px;
    font-family:sans-serif;
 }
 .top3
@@ -39,7 +38,7 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:700px;
+	 height:500px;
 	 width:600px;
 	 padding:1px;
 	 position:fixed;
