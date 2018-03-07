@@ -3,7 +3,6 @@ body
    background-color:#2B2B3C;
    text-align:center;
    margin:auto;
-   display:inline-block;
 }
 .top
 {
@@ -40,7 +39,7 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:350px;
+	 height:400px;
 	 width:600px;
 	 padding:1px;
 	 position:fixed;
