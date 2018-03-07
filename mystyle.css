@@ -2,12 +2,11 @@ body
 {
    background-color:#2B2B3C;
    text-align:center;
-  /* margin:auto;*/
+   margin:auto;
 }
 .top
 {
    color:#FFFFFF;
-   text-align:center;
    font-family:sans-serif;
    font-size:40px;
 }
@@ -29,7 +28,7 @@ span
    color:#FFFFFF;
    font-size:18px;
    font-family:sans-serif;
-   text-align:center;
+   /*text-align:center;*/
 }
 .top3
 {
@@ -56,15 +55,15 @@ div.outer
 input.ibox
 {
     height:35px;
-	width:400px;
+	width:60%;
 	color:#5F5F5F;
 	border:1px solid #5F5F5F;
 	border-radius:4px;
 	padding:4px;
 	padding-left:10px;
 	font-size:16px;
-	top-margin:0px;
-	bottom-margin:0px;
+	top-margin:0;
+	bottom-margin:0;
 }
 button
 {
