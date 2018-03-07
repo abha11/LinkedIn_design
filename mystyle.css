@@ -42,7 +42,7 @@ span
 }
 div.outer
 {    background-color:#4F4F4F;
-	 height:600px;
+	 height:590px;
 	 width:600px;
 	 padding:1px;
 	 position:fixed;
@@ -64,7 +64,7 @@ input.ibox
 	border-radius:4px;
 	padding:4px;
 	padding-left:10px;
-	font-size:20px;
+	font-size:16px;
 	top-margin:0px;
 	bottom-margin:0px;
 }
