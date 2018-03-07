@@ -42,7 +42,7 @@ div.outer
 	 height:600px;
 	 width:800px;
 	 padding:1px;
-	 position:fixed;
+	/* position:fixed;*/
 	 text-align:center;
 	 font-family:sans-serif;
 	 margin:auto;
