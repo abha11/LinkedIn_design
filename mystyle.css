@@ -37,14 +37,14 @@ span
 div.outer
 {    background-color:#4F4F4F;
 	/* height:600px;*/
-	 width:600px;
+	 width:100%;
 	 padding:1px;
-	 position:fixed;
-	 height:100vh;
+	 position:absolute;
+	 height:100%;
 	 text-align:center;
 	 font-family:sans-serif;
-	 margin:auto;
-	display:inline-block;
+	/* margin:auto;
+	display:inline-block;*/
 	 top:0;
 	 bottom:0;
 	 left:0;
