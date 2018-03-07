@@ -44,7 +44,7 @@ div.outer
 	 text-align:center;
 	 font-family:sans-serif;
 	 margin:auto;
-	display:inline-block;
+	 display:inline-block;
 	 top:0;
 	 bottom:0;
 	 left:0;
@@ -71,6 +71,6 @@ button
 	font-family:sans-serif;
 	/*height:40px;*/
 	color:#FFFFFF;
-	border:#4875B4;
+	border:1px solid #4875B4;
 	border-radius:4px;
 }
