@@ -19,8 +19,9 @@ body
    border:1px solid #3F4F5F;
    height:60px;
    width:100%;
+   margin-top:0;
    padding:4px;
-   padding-top:2px;
+   padding-top:4px;
 }
 span
 {  border-radius:3px;
@@ -33,18 +34,18 @@ span
 .top1
 {  color:#FFFFFF;
    font-family:sans-serif;
-   font-size:23px;
+   font-size:20px;
 }
 .top2
 {  color:#FFFFFF;
    font-family:sans-serif;
-   font-size:15px;
+   font-size:10px;
    width:100%;
    text-align:center;
 }
 .top3
 {  color:#FFFFFF;
-   font-size:18px;
+   font-size:12px;
    width:100%;
    font-family:sans-serif;
 }
