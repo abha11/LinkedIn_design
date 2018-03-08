@@ -5,7 +5,7 @@
 body
 {  background-color:#4F4F4F;
    text-align:center;
-   /*line-height:1.6em;*/
+   line-height:1.6em;
    margin:auto;
 }
 .top
@@ -13,7 +13,8 @@ body
    text-align:center;
    font-family:sans-serif;
    font-size:35px;
-   /*margin:10px;*/
+   left:0;
+   right:0;
    background-color:#3F4F5F;
    border:1px solid #3F4F5F;
    height:60px;
