@@ -73,14 +73,14 @@ input.ibox
 	border-radius:4px;
 	padding:4px;
 	padding-left:10px;
-	font-size:18px;
+	font-size:13px;
 	top-margin:0px;
 	bottom-margin:0px;
 }
 button
 {background-color:#4875B4;
 	width:90%;
-	font-size:20px;
+	font-size:16px;
         font-family:sans-serif;
 	height:40px;
 	color:#FFFFFF;
