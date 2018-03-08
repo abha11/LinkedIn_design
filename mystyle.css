@@ -14,12 +14,11 @@ body
    font-family:sans-serif;
    font-size:35px;
    margin:10px;
-  /* background-color:#3C3C4C;
-   border:1px solid #3C3C4C;
+   background-color:#709090;
+   border:1px solid #709090;
    height:60px;
    padding:4px;
-   left-padding:2px;
-   right-padding:2px;*/
+   padding-top:2px;
 }
 span
 {  border-radius:3px;
