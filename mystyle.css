@@ -14,9 +14,10 @@ body
    font-family:sans-serif;
    font-size:35px;
    margin:10px;
-   background-color:#709090;
-   border:1px solid #709090;
+   background-color:#3F4F5F;
+   border:1px solid #3F4F5F;
    height:60px;
+   width:100%;
    padding:4px;
    padding-top:2px;
 }
