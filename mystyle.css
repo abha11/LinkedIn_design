@@ -16,8 +16,10 @@ body
    margin:10px;
    background-color:#3C3C4C;
    border:1px solid #3C3C4C;
-   height:50px;
+   height:60px;
    padding:4px;
+   left-padding:2px;
+   right-padding:2px;
 }
 span
 {  border-radius:3px;
@@ -28,18 +30,18 @@ span
 .top1
 {  color:#FFFFFF;
    font-family:sans-serif;
-   font-size:25px;
+   font-size:23px;
 }
 .top2
 {  color:#FFFFFF;
    font-family:sans-serif;
-   font-size:18px;
+   font-size:15px;
    width:100%;
    text-align:center;
 }
 .top3
 {  color:#FFFFFF;
-   font-size:20px;
+   font-size:18px;
    width:100%;
    font-family:sans-serif;
 }
@@ -67,7 +69,7 @@ input.ibox
 	border-radius:4px;
 	padding:4px;
 	padding-left:10px;
-	font-size:20px;
+	font-size:18px;
 	top-margin:0px;
 	bottom-margin:0px;
 }
