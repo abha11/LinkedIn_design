@@ -5,7 +5,7 @@
 body
 {  background-color:#2B2B3C;
    text-align:center;
-   line-height: 1.6em;
+   /*line-height:1.6em;*/
    margin:auto;
 }
 .top
@@ -14,18 +14,20 @@ body
    font-family:sans-serif;
    font-size:35px;
    margin:10px;
-   background-color:#3C3C4C;
+  /* background-color:#3C3C4C;
    border:1px solid #3C3C4C;
    height:60px;
    padding:4px;
    left-padding:2px;
-   right-padding:2px;
+   right-padding:2px;*/
 }
 span
 {  border-radius:3px;
    background-color:#4875B4;
    padding:4px;
    font-family:sans-serif;
+   left-padding:2px;
+   right-padding:2px;
 }
 .top1
 {  color:#FFFFFF;
