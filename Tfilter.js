@@ -2,31 +2,35 @@ var info = document.getElementById("Table");
 var clk_btn = document.getElementById("getbtn");
 document.getElementById("count").innerHTML = 0;
 
-function myFunction(){
+function myFunction()
+{
 	var req = new XMLHttpRequest();
-	req.onreadystatechange = function(){
-	if (req.readyState == 4 && req.status == 200){
+	req.open('GET','https://abha11.github.io/LinkedIn_design/Tfilter.json');
+	req.onload = function()
+	{
+	  if (req.readyState == 4 && req.status == 200)
+	  {
 		var myObj = JSON.parse(req.responseText);
 		console.log(myObj);
-        renderHTML(myObj);			
+          renderHTML(myObj);			
 	  }			
-   };
-   req.open("GET","https://abha11.github.io/LinkedIn_design/Tfilter.json");
-   req.send();
+       };
+        req.send();
 }
 
 function renderHTML(myObj){
-	var fstring = "";
+	var htmlstring = "";
 	var i;
-	for(i=0; i < myObj.length; i++){
-		fstring = fstring + "<tr><td>"+myObj[i].country + "</td><td>" + myObj[i].capital+ "</td></tr>" ;
+	for(i=0; i < myObj.length; i++)
+	{
+		htmlstring = htmlstring + "<tr><td>"+myObj[i].country + "</td><td>" + myObj[i].capital+ "</td></tr>" ;
 	}
     if(i == myObj.length){
        document.getElementById("count").innerHTML = i;
        document.getElementById("getbtn").style.display = 'none';	   
 	   document.getElementById("myInput").style.display = 'block';
 	}
-	info.insertAdjacentHTML('beforeend' , fstring);
+	info.insertAdjacentHTML('beforeend' , htmlstring);
 } 
 
 function findText()
