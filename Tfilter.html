@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Information Table</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="Tfilter.css">
+</head>
+<body>
+<div class="main_box">
+   <b><div class="heading">COUNTRIES & CAPITALS </div></b>
+   <br><br>
+   <button id="getbtn" type="button" onclick="myFunction()">Open</button>
+   <br><br>
+   <center><input id="myInput" onkeyup="findText()" type="text" placeholder="Search"></center>
+  <center> <table id="Table">
+       <tr>
+	      <th>Country</th>
+	      <th>Capital</th>
+	   </tr>
+	</table></center>
+	<h4>No. of Countries:</h4><h4 id="count"></h4>
+	<script  src="Tfilter.js"></script>
+</div>
+</body>
+</html>
