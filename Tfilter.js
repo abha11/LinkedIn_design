@@ -11,7 +11,7 @@ function myFunction(){
         renderHTML(myObj);			
 	  }			
    };
-   req.open("GET","C:\Users\Abha Suntwal\Desktop\Table_Filter\Tfilter.json");
+   req.open("GET","https://abha11.github.io/LinkedIn_design/Tfilter.json");
    req.send();
 }
 
@@ -34,7 +34,7 @@ function findText()
 	var input, filter, table, tr, i, count = 0;
 	input = document.getElementById("myInput");
 	filter = input.value.toUpperCase();
-	table = document.getElementById("myTable");
+	table = document.getElementById("Table");
 	tr = table.getElementsByTagName("tr");
 	for(i = 0 ; i < tr.length ;i++){
 		var td1 = tr[i].getElementsByTagName("td")[0];
