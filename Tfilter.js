@@ -6,7 +6,7 @@ function myFunction()
 {
 	var req = new XMLHttpRequest();
 	req.open('GET','https://abha11.github.io/LinkedIn_design/Tfilter.json');
-	req.onload = function()
+	req.onreadystatechange = function()
 	{
 	  if (req.readyState == 4 && req.status == 200)
 	  {
