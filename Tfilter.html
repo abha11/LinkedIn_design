@@ -6,18 +6,26 @@
    <link rel="stylesheet" type="text/css" href="Tfilter.css">
 </head>
 <body>
-<div class="main_box">
-   <b><div class="heading">COUNTRIES and CAPITALS </div></b>
-   <br><br>
-   <button id="getbtn" type="button" onclick="myFunction()">Open</button>
-   <br><br>
+<div class="main_box"> 
+    <center>
+    <pre class="circle-text">
+COUNTRIES 
+&
+CAPITALS</pre></center>
+   <br>
+   <button id="getbtn" type="button" onclick="myFunction()">Get Information</button>
+   <br>
    <center><input id="myInput" onkeyup="findText()" type="text" placeholder="Search"></center>
-  <center> <table id="Table">
+   <br>
+  <center> 
+  <table id="Table">
        <tr>
 	      <th>Country</th>
 	      <th>Capital</th>
+	      <th>Country Code</th>
 	   </tr>
-	</table></center>
+  </table>
+  </center>
 	<h4>No. of Countries:</h4><h4 id="count"></h4>
 	<script  src="Tfilter.js"></script>
 </div>
