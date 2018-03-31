@@ -23,7 +23,7 @@ function renderHTML(myObj){
 	var i;
 	for(i=0; i < myObj.length; i++)
 	{
-		htmlstring = htmlstring + "<tr><td>"+myObj[i].country + "</td><td>" + myObj[i].capital+ "</td></tr>" ;
+		htmlstring = htmlstring + "<tr><td>"+myObj[i].country + "</td><td>" + myObj[i].capital+ "</td><td>" + myObj[i].country_code + "</td></tr>" ;
 	}
     if(i == myObj.length){
        document.getElementById("count").innerHTML = i;
@@ -43,9 +43,10 @@ function findText()
 	for(i = 0 ; i < tr.length ;i++){
 		var td1 = tr[i].getElementsByTagName("td")[0];
 		var td2 = tr[i].getElementsByTagName("td")[1];
+		var td3 = tr[i].getElementsByTagName("td")[2];
 		if(td1+td2)
 		{
-			if((td1.innerHTML.toUpperCase().indexOf(filter)+td2.innerHTML.toUpperCase().indexOf(filter))>-2){
+			if((td1.innerHTML.toUpperCase().indexOf(filter)+td2.innerHTML.toUpperCase().indexOf(filter)+td3.innerHTML.toUpperCase().indexOf(filter))>-3){
 				count++;
 				tr[i].style.display = "";
 			}
