@@ -14,9 +14,8 @@
 	box-shadow: 1px 8px 10px 2px #ffffff;
 	padding:5px;
 	margin:auto;
-	margin-top:50px;
 	color:#ffffff;
-	width:80%;
+	width:100%;
  }
  .circle-text 
 {
@@ -36,10 +35,9 @@
 	background-color:#ff8729;
 	text-align:center;
 	color:#ffffff;
-	padding:3px;
-	width:10%;
+	padding:2px;
 	border:2px solid #000000;
-	font-size:20px;
+	font-size:16px;
 	font-family:Impact;
  }
  input
